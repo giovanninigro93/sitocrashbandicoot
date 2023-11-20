@@ -1,0 +1,149 @@
+@media only screen and (max-width: 600px) {
+}
+
+@font-face {
+    font-family: 'crashfont';
+    src: url('crash-wumpa.ttf') format('truetype');
+}
+
+body {
+    font-family: 'crashfont', sans-serif;
+    font-size: 1.85em;
+    -webkit-text-stroke: 1px black;
+    margin: 0;
+    padding: 0;
+}
+
+.titlepic {
+    position: center;
+}
+
+#container {
+    display:grid;
+    grid-template-areas:
+    'header header header'
+    'crash main aku'
+    'crash main aku'
+    'crash basso basso';
+}
+
+#header {
+    background-color: rgb(255, 255, 141);
+}
+
+#header h1,
+#header p {
+    margin: 0;
+}
+
+#header, #container {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 200%;
+
+}
+#sottotitolo {
+    text-align: center;
+}
+
+img {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#aku {
+    float: right;
+}
+
+#c1 {
+        background-color: rgb(102, 196, 79);
+        grid-area: header;
+        border: double 2px rgb(208, 178, 255);
+}
+
+#c2 {
+    background-color: rgb(241, 213, 53);
+    grid-area: crash;
+    border: double 2px rgb(208, 178, 255);
+}
+
+#c3 {
+    background-color: rgb(226, 138, 66);
+    grid-area: main;
+    border: double 2px rgb(208, 178, 255);
+
+}
+
+#c4 {
+    background-color: rgb(77, 210, 219);
+    grid-area: aku;
+    border: double 2px rgb(208, 178, 255);
+}
+
+#c5 {
+    background-color: rgb(219, 86, 231);
+    grid-area: basso;
+    border: double 2px rgb(208, 178, 255);
+}
+
+.colorebianco {
+    background: #FFF830;
+    background: -webkit-linear-gradient(to bottom, #FFF830 0%, #FF9900 70%);
+    background: linear-gradient(to bottom, #FFF830 0%, #FF9900 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img {
+    max-width: 250px;
+}
+
+footer {
+    color: white;
+    background: black;
+    text-shadow: 1px 1px 1px black;
+    font-size: 90%;
+    padding-right: 50px;
+    margin: 0;
+    bottom: 0;
+    border:none;
+    width: 100%;
+  }
+
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
